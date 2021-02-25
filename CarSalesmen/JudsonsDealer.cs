@@ -16,7 +16,7 @@ namespace CarSalesmen
             m_Judsons = judsons;
         }
 
-        public VehicleReceipt BuyCar(IVehiclePurchaseToken vehiclePurchaseToken)
+        public VehicleReceipt BuyVehicle(IVehiclePurchaseToken vehiclePurchaseToken)
         {
             return vehiclePurchaseToken.PurchaseVehicle();
         }

@@ -17,7 +17,7 @@ namespace CarSalesmen
             m_MattsMotors.Initialise();
         }
 
-        public VehicleReceipt BuyCar(IVehiclePurchaseToken vehiclePurchaseToken)
+        public VehicleReceipt BuyVehicle(IVehiclePurchaseToken vehiclePurchaseToken)
         {
             return vehiclePurchaseToken.PurchaseVehicle();
         }

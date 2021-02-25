@@ -11,6 +11,6 @@ namespace CarSalesmen
     {
         Result<string,IVehiclePurchaseToken> GetPurchaseTokenForVehicleRequest(VehicleRequest vehicleRequest);
 
-        VehicleReceipt BuyCar(IVehiclePurchaseToken vehiclePurchaseToken);
+        VehicleReceipt BuyVehicle(IVehiclePurchaseToken vehiclePurchaseToken);
     }
 }
